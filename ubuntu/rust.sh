@@ -9,6 +9,7 @@ cargo install \
 bat \
 difftastic \
 eza \
+just \
 nu \
 ripgrep \
 zellij
