@@ -16,7 +16,7 @@ cd respawn
 failed=()
 while IFS= read -r -d '' script; do
     if [[ -x "$script" ]]; then
-        source "$script"
+        "$script"
         rc=$?
         if [[ $rc -ne 0 ]]; then
             failed+=("$script:$rc")

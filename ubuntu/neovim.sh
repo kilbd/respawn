@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 cd /tmp
 wget -O nvim.tar.gz "https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz"
 tar -xvzf nvim.tar.gz
